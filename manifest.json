@@ -1,0 +1,15 @@
+{
+  "name": "CoinPrice",
+  "short_name": "CoinPrice",
+  "start_url": "https://yaelgf.github.io/CoinPricePWA/",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "monedasde20/20_Const1917_rev_pagMon20.png",
+      "type": "image/png"
+    }
+  ]
+}
