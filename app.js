@@ -75,13 +75,10 @@ const showCoins = () => {
 
 document.addEventListener("DOMContentLoaded", showCoins);
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function() {
-    navigator.serviceWorker
-      .register("serviceWorker.js", { scope: "/" })
-      .then(res => console.log("service worker registered"))
-      .catch(err => console.log("service worker not registered", err));
-  });
-}
+
+
+if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('serviceWorker.js', { scope: 'https://yaelgf.github.io/CoinPricePWA/js/serviceWorker.js' });
+      }
 
 // https://www.banxico.org.mx/billetes-y-monedas/monedas-20-pesos-conmemorativ.html#collapse1
